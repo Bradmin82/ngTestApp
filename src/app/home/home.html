@@ -1,0 +1,7 @@
+<main>
+    <!-- <app-greeting [message]="'Hellow, yooo'" /> -->
+    <app-greeting [message]="homeMessage()" />
+    <app-counter />
+    <p>Type below and view in console</p>
+    <input type="text" (keyup)="keyUpHandler($event)">
+</main>
